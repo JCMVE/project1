@@ -79,6 +79,7 @@ p{
     font-size: 9pt;
     padding: 1em;
     padding-top: 2em;
+    
 }
 
 figure{
@@ -101,11 +102,9 @@ figcaption{
     font-weight: 300;
     font-style: normal;
     font-size: 8pt;
-    padding-left: 1em;
-    padding-right: 2em;
-    position: absolute;
-    left: 2em;
-    top: 6em;
+    padding-top: 3em;
+    padding-left: 2em;
+
 }
 
 a{
@@ -160,7 +159,7 @@ img {
     width:20%;
     position: absolute;
     padding-left: 1em;
-    top: 48em;
+    top: 56em;
     display: flex;
 }
 
@@ -168,7 +167,7 @@ img {
     width:15%;
     position: absolute;
     padding-left: 1em;
-    top: 34em;
+    top: 35.5em;
     display: flex;
 }
 
@@ -176,28 +175,28 @@ img {
     width: 20%;
     position: absolute;
     padding-left: 1em;
-    top: 64em;
+    top: 77em;
 }
 
 .bitterbal{
     width: 20%;
     position: absolute;
     padding-left: 1em;
-    top: 82em;
+    top: 98em;
 }
 
 .kruidens{
    width: 23%;
     position: absolute;
     padding-left: 1em;
-    bottom: -64em; 
+    bottom: -83em; 
 }
 
 .vazen{
     width: 22%;
     position: absolute;
     padding-left: 1em;
-    bottom: -82em;
+    bottom: -103em;
 }
 
 section{
@@ -210,7 +209,7 @@ section{
     display: flex;
     justify-content: center;
     background-color: #D8DED0;
-    border-radius: 56.5px;
+    border-radius: 3em;
 }
 
 .border-workshops{
@@ -283,7 +282,7 @@ section{
 .blaadjes-profiel{
     width: 100%;
     position: absolute;
-    top: 25.8em;
+    top: 35.6em;
     padding-right: 1.3em;
 }
 
@@ -292,23 +291,39 @@ section{
     color: #925F36;
     font-size: 20pt;
     position: absolute;
-    bottom: -1.25em;
-    left: 4em;
-    right: 4em;
+    bottom: -7em;
+    left: 4.5em;
+    right: 3em;
 }
 
 .puntbloem1{
     position: absolute;
     width: 17%;
-    bottom: -3em;
+    bottom: -14.5em;
+    left: 1em;
 }
 
 .puntbloem2{
     position: absolute;
     width: 17%;
     right: 0em;
-    bottom: -8em;
+    bottom: -20em;
 }
+
+.puntbloem3{
+    display: flex;
+    width: 20%;
+    float: right; 
+    margin-top: 16.6em;
+    position: relative;
+}
+
+.puntbloem4{
+    width: 7%;
+    display: flex;
+    float: right;
+    margin-top: 16.8em;
+} 
 
 .punt1{
     width: 80%;
@@ -319,6 +334,7 @@ section{
     border-width: medium;
     position: absolute;
     top: 20em;
+    margin-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
     background-color:#EFF2E9
