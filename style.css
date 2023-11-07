@@ -81,6 +81,21 @@ p{
     padding-top: 2em;
 }
 
+figure{
+    display: flex;
+    font-family: "obviously", sans-serif;
+    font-size: 8pt;
+    font-weight: 300;
+    gap: 12em;
+    padding-left: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
+figcaption{
+    margin-bottom: 5em;
+}
+
 .onder-titel{
     font-family: "obviously", sans-serif;
     font-weight: 300;
@@ -118,10 +133,14 @@ img {
 }
 
 .map-profiel{
-    width: 15%;
-    position: relative;
-    top: -2.5em;
-    left: -1em;
+    display: flex;
+    width:  40%;
+    margin-right: 4em;
+    margin-left: 4em;
+    margin-top: -2.5em;
+    justify-content: center;
+    align-items: center;
+
 }
 
  .profiel{
