@@ -25,6 +25,28 @@ ul li a{
     font-size: 10pt;
 }
 
+ol{
+    font-family: "obviously", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 10pt;
+}
+
+ol li p{
+    justify-content: center;
+    text-align: left;
+
+}
+
+ol figure{
+    display: flex;
+    text-align: left;
+    margin-left: -0.5em;
+}
+
+ol img{
+    width: 80%;
+}
 h1{
     text-align: center;
     font-family: "eight", sans-serif;
@@ -56,8 +78,7 @@ h2{
     color: #925F36;
     padding: 1em;
     position: absolute;
-    top: 2.5em;
-    padding-bottom: 1em;
+    top: 5em;
     left: 3em;
     right: 3em;
     text-align: center;
@@ -90,14 +111,14 @@ figure{
     font-family: "obviously", sans-serif;
     font-size: 8pt;
     font-weight: 300;
-    gap: 12em;
+    gap: 12.5em;
     padding-left: 2em;
     text-align: center;
     justify-content: center;
 }
 
 figcaption{
-    margin-bottom: 5em;
+    margin-bottom: 4em;
 }
 
 .onder-titel{
@@ -107,7 +128,6 @@ figcaption{
     font-size: 8pt;
     padding-top: 3em;
     padding-left: 2em;
-
 }
 
 a{
@@ -115,7 +135,7 @@ a{
 }
 
 img { 
-    width: 50%
+    width: 50%;
 }
 
 .img-groenwolkje{
@@ -138,13 +158,10 @@ img {
 
 .map-profiel{
     display: flex;
-    width:  40%;
-    margin-right: 4em;
-    margin-left: 4em;
-    margin-top: -2.5em;
+    margin-top: -2em;
+    padding-left: 0.75em;
     justify-content: center;
-    align-items: center;
-
+   
 }
 
  .profiel{
@@ -160,6 +177,12 @@ img {
     left: -1.3em;
 }
 
+.image-groot{
+    width: 30%;
+    display: flex;
+    margin-left: 7.5em;
+    padding-top: 1em;
+}
 
 .image-naast-tekst1{
    margin-bottom: 1em;
@@ -206,6 +229,10 @@ section{
     justify-content: center;
 }
 
+.index{
+    justify-content: center;
+    display: flex;
+}
 
 article{
 justify-content: center;
@@ -240,7 +267,10 @@ article img{
     display: flex;
     justify-content: center;
     background-color: #D8DED0;
-    border-radius: 3em;
+    margin-top: 2em;
+    padding-top: 2em;
+    border-radius: 1em;
+    padding-bottom: 2em;
 }
 
 .border-workshops{
@@ -313,7 +343,7 @@ article img{
 .blaadjes-profiel{
     width: 100%;
     position: absolute;
-    top: 35.6em;
+    top: 27.2em;
     padding-right: 1.3em;
 }
 
@@ -322,23 +352,23 @@ article img{
     color: #925F36;
     font-size: 20pt;
     position: absolute;
-    bottom: -7em;
-    left: 4.5em;
-    right: 3em;
+    bottom: -1.75em;
+    left: 4em;
+   
 }
 
 .puntbloem1{
     position: absolute;
-    width: 17%;
-    bottom: -14.5em;
-    left: 1em;
+    width: 15%;
+    bottom: -3.6em;
+    left: -1em;
 }
 
 .puntbloem2{
     position: absolute;
     width: 17%;
-    right: 0em;
-    bottom: -20em;
+    right: -2em;
+    bottom: -10em;
 }
  
 .punt1{
@@ -356,25 +386,6 @@ article img{
     
 }
 
-
-.searchbar{
-    border-radius: 1em;
-    position: absolute;
-    top: 16em;
-}
-
-input{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 5em;
-    padding-right: 5em;
-    text-align: center;
-    border-radius: 12px;
-    border-color: #8A9F85;
-    border-style: solid;
-}
-
-
 .button{
     background-color: #925F36;
     border: none;
@@ -388,6 +399,7 @@ input{
     padding: 0.5em;
     padding-left:5em;
     padding-right: 5em;
+    margin-right: 2em;
     position: absolute;
     bottom: 3em;
 }
