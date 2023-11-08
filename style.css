@@ -65,12 +65,11 @@ h2{
 }
 
 .kopjes{
-    position: relative;
     font-family: "obviously", sans-serif;
     font-weight: 500;
     text-align: left;
     padding-left: 1em;
-    margin-top: 10em;
+    margin-top: 5em;
 }
 
 p{
@@ -78,8 +77,11 @@ p{
     font-weight: 300;
     font-style: normal;
     font-size: 9pt;
-    padding: 1em;
     padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    text-align: center;
     
 }
 
@@ -158,51 +160,48 @@ img {
     left: -1.3em;
 }
 
-.cocktail{
-    width:20%;
-    position: absolute;
-    padding-left: 1em;
-    top: 56em;
-    display: flex;
-}
 
-.frisdrank{
-    width:15%;
-    position: absolute;
-    padding-left: 1em;
-    top: 35.5em;
-    display: flex;
-}
-
-.brownie{
-    width: 20%;
-    position: absolute;
-    padding-left: 1em;
-    top: 77em;
-}
-
-.bitterbal{
-    
+.image-naast-tekst1{
+   margin-bottom: 1em;
+   padding-left: 1em;
    width: 25%;
-   float: left;
-   padding-top: 1em;
-   padding-bottom: em;
+   float: left; 
 }
 
-.kruidens{
-   width: 23%;
-    position: absolute;
+.image-naast-tekst{
+    margin-top: 0.75em ;
     padding-left: 1em;
-    bottom: -83em; 
+    width: 20%;
+    float: left; 
 }
 
-.vazen{
-    width: 22%;
-    position: absolute;
-    padding-left: 1em;
-    bottom: -103em;
+.punten-naast-tekst{
+    display: flex;
+    width: 15%;
+    float: right;
+    margin-top: -3.5em;
+    margin-right: 1em;
+    padding-top: 1em;
+    
 }
 
+.punten-naast-tekst1{
+    display: flex;
+    width: 12%;
+    float: right;
+    margin-right: 1em;
+    margin-top: -3.5em;
+    padding-top: 1em;
+}
+
+.punten-naast-tekst2{
+    display: flex;
+    width: 5%;
+    float: right;
+    margin-top: -3.7em;
+    margin-right: 2em;
+    padding-top: 1em;
+}
 section{
     justify-content: center;
 }
@@ -213,13 +212,15 @@ justify-content: center;
 }
 
 article p{
-    text-align: left;
     border-color: #FA9F8C;
     border-style: solid;
     border-radius: 0.5em;
-    border-width: smaller;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+    text-align: left;
     font-size: 8pt;
-    padding-bottom: 5em;
+    padding-left: 13em;
 }
 
 article a{
@@ -228,14 +229,12 @@ article a{
 }
 
 article img{
-    width: 30%;
+    margin-top: 3em;
     margin-left: 1em;
-    margin-right: 2em;
-   align-items: center;
-   padding-top: 6em;
-   padding-bottom: 6em;
+    margin-right: 1em;
+    justify-content: center;
+    padding-top: 1em;
 }
-
 
 .border{
     display: flex;
@@ -341,24 +340,7 @@ article img{
     right: 0em;
     bottom: -20em;
 }
-
-.puntbloem3{
-    display: flex;
-    width: 20%;
-    float: right; 
-    margin-top: 16.6em;
-    position: relative;
-}
-
-.puntbloem4{
-    width: 7%;
-    display: flex;
-    float: right;
-
-    margin-top: 16.8em;
-    
-} 
-
+ 
 .punt1{
     width: 80%;
     display: flex;
@@ -366,12 +348,12 @@ article img{
     border-color:#8A9F85;
     border-radius: 7.8px;
     border-width: medium;
-    position: absolute;
-    top: 20em;
-    margin-top: 1em;
+    margin-left: 1em;
     padding-left: 1em;
     padding-right: 1em;
-    background-color:#EFF2E9
+    margin-bottom: 5em;
+    justify-content: center;
+    
 }
 
 
