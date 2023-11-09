@@ -117,9 +117,6 @@ figure{
     justify-content: center;
 }
 
-figcaption{
-    margin-bottom: 4em;
-}
 
 .onder-titel{
     font-family: "obviously", sans-serif;
@@ -162,19 +159,6 @@ img {
     padding-left: 0.75em;
     justify-content: center;
    
-}
-
- .profiel{
-    width: 40%;
-    height: 40%;
-    position: relative;
-    top: -1.5em;
-    right: -2em;
-}
-
-.menu{
-    position: relative;
-    left: -1.3em;
 }
 
 .image-groot{
@@ -273,28 +257,6 @@ article img{
     padding-bottom: 2em;
 }
 
-.border-workshops{
-    border-radius: 50px;
-    background-color: #D8DED0;
-}
-.boxes{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    border-style: solid;
-    border-color: #FA9F8C;
-    border-width: medium;
-    border-radius: 7.8px;
-    font-family: "obviously", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 10pt;
-    padding: 1em;
-    margin: 0.5em;
-    position: relative;
-    top: -3.5em;
-}
 
 .greenbox{
     display: flex;
@@ -322,29 +284,8 @@ article img{
     font-size: 10pt;
     padding-right: 15em;
     padding-bottom: 2em; 
-    margin-top: 3em;
-}
-
-.workshop{
-    border-style: solid;
-    border-color:#FA9F8C;
-    border-radius: 13.4px;
-    border-width: small;
-    font-size: 8pt;
-    position: relative;
-    top: 10em;
-    padding-bottom: 2em; 
-    padding-left: 10em;
     margin-top: 4em;
     
-
-}
-
-.blaadjes-profiel{
-    width: 100%;
-    position: absolute;
-    top: 27.2em;
-    padding-right: 1.3em;
 }
 
 .punten{
@@ -352,15 +293,15 @@ article img{
     color: #925F36;
     font-size: 20pt;
     position: absolute;
-    bottom: -1.75em;
-    left: 4em;
+    bottom: -0.25em;
+    left: 3.5em;
    
 }
 
 .puntbloem1{
     position: absolute;
     width: 15%;
-    bottom: -3.6em;
+    bottom: -0.5em;
     left: -1em;
 }
 
@@ -368,7 +309,7 @@ article img{
     position: absolute;
     width: 17%;
     right: -2em;
-    bottom: -10em;
+    bottom: -6em;
 }
  
 .punt1{
@@ -408,8 +349,6 @@ a.button{
     color: #F2E7DC;
 }
 
-footer{
-    margin-top: 3em;
-}
+
 
 
